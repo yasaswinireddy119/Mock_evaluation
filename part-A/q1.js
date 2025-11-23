@@ -48,7 +48,7 @@ console.log(lng)
 //question - 6
 //arrow function
 const multiply = (a,b) => {a * b}
-console.log(multiply)
+console.log(multiply())
 
 //questiom - 7
 //optional chaining
