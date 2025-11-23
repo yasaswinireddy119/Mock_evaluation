@@ -24,15 +24,18 @@ console.log(num_sort)
 
 
 ///question - 9
-function displayCar()
-function displayTruck()
-function displayBike()
 
-vehicleInfo(vehicleCategory, callbackFn){
-    vehicleInfo("Car", displayCar)
-    vehicleInfo("Truck", displayTruck)
-    vehicleInfo("Bike", displayBike)
 
+function(displayCar,displayTruck,displayBike){
+    vehicleInfo(vehicleCategory, callbackFn){
+        callbackFn()
+    }
 }
+vehicleInfo("Car", displayCar)
+vehicleInfo("Truck", displayTruck)
+vehicleInfo("Bike", displayBike)
+
+
+
 
 
